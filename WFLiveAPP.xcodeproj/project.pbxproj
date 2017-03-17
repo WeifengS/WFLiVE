@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B79F7791E63EC9A00A4C492 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B79F7781E63EC9A00A4C492 /* main.m */; };
+		0B79F77C1E63EC9A00A4C492 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B79F77B1E63EC9A00A4C492 /* AppDelegate.m */; };
+		0B79F7821E63EC9A00A4C492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B79F7801E63EC9A00A4C492 /* Main.storyboard */; };
+		0B79F7841E63EC9A00A4C492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B79F7831E63EC9A00A4C492 /* Assets.xcassets */; };
+		0B79F7871E63EC9A00A4C492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B79F7851E63EC9A00A4C492 /* LaunchScreen.storyboard */; };
+		0B79F7921E63EC9B00A4C492 /* WFLiveAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B79F7911E63EC9B00A4C492 /* WFLiveAPPTests.m */; };
+		0B79F79D1E63EC9B00A4C492 /* WFLiveAPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B79F79C1E63EC9B00A4C492 /* WFLiveAPPUITests.m */; };
+		0B79F7AB1E63ECC500A4C492 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B79F7AA1E63ECC500A4C492 /* IJKMediaFramework.framework */; };
+		0B79F7B11E63EDF500A4C492 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B79F7B01E63EDF500A4C492 /* RootViewController.m */; };
+		0B79F7B41E63F13800A4C492 /* LiveTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B79F7B31E63F13800A4C492 /* LiveTableViewController.m */; };
+		0B79F7B61E63F48C00A4C492 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B79F7B51E63F48C00A4C492 /* VideoToolbox.framework */; };
+		0B79F7B81E63F49700A4C492 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B79F7B71E63F49700A4C492 /* OpenGLES.framework */; };
+		0B79F7BA1E63F4A800A4C492 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B79F7B91E63F4A800A4C492 /* MobileCoreServices.framework */; };
+		0B79F7BC1E63F4B000A4C492 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B79F7BB1E63F4B000A4C492 /* MediaPlayer.framework */; };
+		0B79F7BE1E63F4B800A4C492 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B79F7BD1E63F4B800A4C492 /* libz.tbd */; };
+		0B79F7C01E63F4BF00A4C492 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B79F7BF1E63F4BF00A4C492 /* libbz2.tbd */; };
+		0B79F7C41E63F63A00A4C492 /* WFLiveItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B79F7C31E63F63A00A4C492 /* WFLiveItem.m */; };
+		0B79F7CA1E63F6A300A4C492 /* WFCreatorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B79F7C91E63F6A300A4C492 /* WFCreatorItem.m */; };
+		0B79F7CE1E63F84500A4C492 /* WFLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B79F7CC1E63F84500A4C492 /* WFLiveCell.m */; };
+		0B79F7CF1E63F84500A4C492 /* WFLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B79F7CD1E63F84500A4C492 /* WFLiveCell.xib */; };
+		0B79F7D21E6405CF00A4C492 /* LivePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B79F7D11E6405CF00A4C492 /* LivePlayerViewController.m */; };
+		0B79F7D61E657E1E00A4C492 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B79F7D51E657E1E00A4C492 /* LoginViewController.m */; };
+		0BAF53071E671AC400E09B9D /* XTLoveHeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF53031E671AC400E09B9D /* XTLoveHeartView.m */; };
+		0BAF53CF1E681C6700E09B9D /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF53CB1E681C6700E09B9D /* UIImageView+Extension.m */; };
+		0BAF53D01E681C6700E09B9D /* UIViewController+SLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF53CE1E681C6700E09B9D /* UIViewController+SLExtension.m */; };
+		0BAF53D31E682E2100E09B9D /* WFNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF53D21E682E2100E09B9D /* WFNavigationViewController.m */; };
+		0BAF53D61E683B8C00E09B9D /* PrsenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF53D51E683B8C00E09B9D /* PrsenViewController.m */; };
+		86005619156769DDD54C67FA /* libPods-WFLiveAPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BC37F4E66AF32572C72D3B /* libPods-WFLiveAPP.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B79F78E1E63EC9B00A4C492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B79F76C1E63EC9A00A4C492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B79F7731E63EC9A00A4C492;
+			remoteInfo = WFLiveAPP;
+		};
+		0B79F7991E63EC9B00A4C492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B79F76C1E63EC9A00A4C492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B79F7731E63EC9A00A4C492;
+			remoteInfo = WFLiveAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0340D99865ABAF129F1F2A7E /* Pods-WFLiveAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFLiveAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WFLiveAPP/Pods-WFLiveAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		0B79F7741E63EC9A00A4C492 /* WFLiveAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFLiveAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B79F7781E63EC9A00A4C492 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B79F77A1E63EC9A00A4C492 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B79F77B1E63EC9A00A4C492 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B79F7811E63EC9A00A4C492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B79F7831E63EC9A00A4C492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B79F7861E63EC9A00A4C492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B79F7881E63EC9A00A4C492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B79F78D1E63EC9B00A4C492 /* WFLiveAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFLiveAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B79F7911E63EC9B00A4C492 /* WFLiveAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFLiveAPPTests.m; sourceTree = "<group>"; };
+		0B79F7931E63EC9B00A4C492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B79F7981E63EC9B00A4C492 /* WFLiveAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFLiveAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B79F79C1E63EC9B00A4C492 /* WFLiveAPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFLiveAPPUITests.m; sourceTree = "<group>"; };
+		0B79F79E1E63EC9B00A4C492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B79F7AA1E63ECC500A4C492 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		0B79F7AF1E63EDF500A4C492 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0B79F7B01E63EDF500A4C492 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0B79F7B21E63F13800A4C492 /* LiveTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveTableViewController.h; sourceTree = "<group>"; };
+		0B79F7B31E63F13800A4C492 /* LiveTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveTableViewController.m; sourceTree = "<group>"; };
+		0B79F7B51E63F48C00A4C492 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		0B79F7B71E63F49700A4C492 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0B79F7B91E63F4A800A4C492 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0B79F7BB1E63F4B000A4C492 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0B79F7BD1E63F4B800A4C492 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0B79F7BF1E63F4BF00A4C492 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		0B79F7C11E63F51200A4C492 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0B79F7C21E63F63A00A4C492 /* WFLiveItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFLiveItem.h; sourceTree = "<group>"; };
+		0B79F7C31E63F63A00A4C492 /* WFLiveItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFLiveItem.m; sourceTree = "<group>"; };
+		0B79F7C81E63F6A300A4C492 /* WFCreatorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFCreatorItem.h; sourceTree = "<group>"; };
+		0B79F7C91E63F6A300A4C492 /* WFCreatorItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCreatorItem.m; sourceTree = "<group>"; };
+		0B79F7CB1E63F84500A4C492 /* WFLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFLiveCell.h; sourceTree = "<group>"; };
+		0B79F7CC1E63F84500A4C492 /* WFLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFLiveCell.m; sourceTree = "<group>"; };
+		0B79F7CD1E63F84500A4C492 /* WFLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WFLiveCell.xib; sourceTree = "<group>"; };
+		0B79F7D01E6405CF00A4C492 /* LivePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivePlayerViewController.h; sourceTree = "<group>"; };
+		0B79F7D11E6405CF00A4C492 /* LivePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivePlayerViewController.m; sourceTree = "<group>"; };
+		0B79F7D31E6578F700A4C492 /* APPKeyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPKeyHeader.h; sourceTree = "<group>"; };
+		0B79F7D41E657E1E00A4C492 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0B79F7D51E657E1E00A4C492 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0BAF53021E671AC400E09B9D /* XTLoveHeartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTLoveHeartView.h; sourceTree = "<group>"; };
+		0BAF53031E671AC400E09B9D /* XTLoveHeartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTLoveHeartView.m; sourceTree = "<group>"; };
+		0BAF53CA1E681C6700E09B9D /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
+		0BAF53CB1E681C6700E09B9D /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
+		0BAF53CD1E681C6700E09B9D /* UIViewController+SLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SLExtension.h"; sourceTree = "<group>"; };
+		0BAF53CE1E681C6700E09B9D /* UIViewController+SLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SLExtension.m"; sourceTree = "<group>"; };
+		0BAF53D11E682E2100E09B9D /* WFNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFNavigationViewController.h; sourceTree = "<group>"; };
+		0BAF53D21E682E2100E09B9D /* WFNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFNavigationViewController.m; sourceTree = "<group>"; };
+		0BAF53D41E683B8C00E09B9D /* PrsenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrsenViewController.h; sourceTree = "<group>"; };
+		0BAF53D51E683B8C00E09B9D /* PrsenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrsenViewController.m; sourceTree = "<group>"; };
+		A199686DF801EB045B1F775E /* Pods-WFLiveAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFLiveAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-WFLiveAPP/Pods-WFLiveAPP.release.xcconfig"; sourceTree = "<group>"; };
+		A4BC37F4E66AF32572C72D3B /* libPods-WFLiveAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WFLiveAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B79F7711E63EC9A00A4C492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B79F7C01E63F4BF00A4C492 /* libbz2.tbd in Frameworks */,
+				0B79F7BE1E63F4B800A4C492 /* libz.tbd in Frameworks */,
+				0B79F7BC1E63F4B000A4C492 /* MediaPlayer.framework in Frameworks */,
+				0B79F7BA1E63F4A800A4C492 /* MobileCoreServices.framework in Frameworks */,
+				0B79F7B81E63F49700A4C492 /* OpenGLES.framework in Frameworks */,
+				0B79F7B61E63F48C00A4C492 /* VideoToolbox.framework in Frameworks */,
+				0B79F7AB1E63ECC500A4C492 /* IJKMediaFramework.framework in Frameworks */,
+				86005619156769DDD54C67FA /* libPods-WFLiveAPP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B79F78A1E63EC9B00A4C492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B79F7951E63EC9B00A4C492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08EF72F768A5BCC44615E709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B79F7BF1E63F4BF00A4C492 /* libbz2.tbd */,
+				0B79F7BD1E63F4B800A4C492 /* libz.tbd */,
+				0B79F7BB1E63F4B000A4C492 /* MediaPlayer.framework */,
+				0B79F7B91E63F4A800A4C492 /* MobileCoreServices.framework */,
+				0B79F7B71E63F49700A4C492 /* OpenGLES.framework */,
+				0B79F7B51E63F48C00A4C492 /* VideoToolbox.framework */,
+				A4BC37F4E66AF32572C72D3B /* libPods-WFLiveAPP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B79F76B1E63EC9A00A4C492 = {
+			isa = PBXGroup;
+			children = (
+				0B79F7761E63EC9A00A4C492 /* WFLiveAPP */,
+				0B79F7901E63EC9B00A4C492 /* WFLiveAPPTests */,
+				0B79F79B1E63EC9B00A4C492 /* WFLiveAPPUITests */,
+				0B79F7751E63EC9A00A4C492 /* Products */,
+				9AA56AAAA5AC0F29ED9CD5B7 /* Pods */,
+				08EF72F768A5BCC44615E709 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B79F7751E63EC9A00A4C492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B79F7741E63EC9A00A4C492 /* WFLiveAPP.app */,
+				0B79F78D1E63EC9B00A4C492 /* WFLiveAPPTests.xctest */,
+				0B79F7981E63EC9B00A4C492 /* WFLiveAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B79F7761E63EC9A00A4C492 /* WFLiveAPP */ = {
+			isa = PBXGroup;
+			children = (
+				0BAF53C81E681C6700E09B9D /* Tools */,
+				0BAF53001E671AC400E09B9D /* YY直播点赞 */,
+				0B79F7C71E63F65100A4C492 /* Controllers */,
+				0B79F7C61E63F64B00A4C492 /* Views */,
+				0B79F7C51E63F64100A4C492 /* Models */,
+				0B79F7AA1E63ECC500A4C492 /* IJKMediaFramework.framework */,
+				0B79F77A1E63EC9A00A4C492 /* AppDelegate.h */,
+				0B79F77B1E63EC9A00A4C492 /* AppDelegate.m */,
+				0B79F7801E63EC9A00A4C492 /* Main.storyboard */,
+				0B79F7831E63EC9A00A4C492 /* Assets.xcassets */,
+				0B79F7851E63EC9A00A4C492 /* LaunchScreen.storyboard */,
+				0B79F7881E63EC9A00A4C492 /* Info.plist */,
+				0B79F7771E63EC9A00A4C492 /* Supporting Files */,
+			);
+			path = WFLiveAPP;
+			sourceTree = "<group>";
+		};
+		0B79F7771E63EC9A00A4C492 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B79F7D31E6578F700A4C492 /* APPKeyHeader.h */,
+				0B79F7C11E63F51200A4C492 /* PrefixHeader.pch */,
+				0B79F7781E63EC9A00A4C492 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B79F7901E63EC9B00A4C492 /* WFLiveAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B79F7911E63EC9B00A4C492 /* WFLiveAPPTests.m */,
+				0B79F7931E63EC9B00A4C492 /* Info.plist */,
+			);
+			path = WFLiveAPPTests;
+			sourceTree = "<group>";
+		};
+		0B79F79B1E63EC9B00A4C492 /* WFLiveAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B79F79C1E63EC9B00A4C492 /* WFLiveAPPUITests.m */,
+				0B79F79E1E63EC9B00A4C492 /* Info.plist */,
+			);
+			path = WFLiveAPPUITests;
+			sourceTree = "<group>";
+		};
+		0B79F7C51E63F64100A4C492 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0B79F7C21E63F63A00A4C492 /* WFLiveItem.h */,
+				0B79F7C31E63F63A00A4C492 /* WFLiveItem.m */,
+				0B79F7C81E63F6A300A4C492 /* WFCreatorItem.h */,
+				0B79F7C91E63F6A300A4C492 /* WFCreatorItem.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0B79F7C61E63F64B00A4C492 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B79F7CB1E63F84500A4C492 /* WFLiveCell.h */,
+				0B79F7CC1E63F84500A4C492 /* WFLiveCell.m */,
+				0B79F7CD1E63F84500A4C492 /* WFLiveCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0B79F7C71E63F65100A4C492 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B79F7AF1E63EDF500A4C492 /* RootViewController.h */,
+				0B79F7B01E63EDF500A4C492 /* RootViewController.m */,
+				0B79F7B21E63F13800A4C492 /* LiveTableViewController.h */,
+				0B79F7B31E63F13800A4C492 /* LiveTableViewController.m */,
+				0B79F7D01E6405CF00A4C492 /* LivePlayerViewController.h */,
+				0B79F7D11E6405CF00A4C492 /* LivePlayerViewController.m */,
+				0B79F7D41E657E1E00A4C492 /* LoginViewController.h */,
+				0B79F7D51E657E1E00A4C492 /* LoginViewController.m */,
+				0BAF53D11E682E2100E09B9D /* WFNavigationViewController.h */,
+				0BAF53D21E682E2100E09B9D /* WFNavigationViewController.m */,
+				0BAF53D41E683B8C00E09B9D /* PrsenViewController.h */,
+				0BAF53D51E683B8C00E09B9D /* PrsenViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0BAF53001E671AC400E09B9D /* YY直播点赞 */ = {
+			isa = PBXGroup;
+			children = (
+				0BAF53021E671AC400E09B9D /* XTLoveHeartView.h */,
+				0BAF53031E671AC400E09B9D /* XTLoveHeartView.m */,
+			);
+			path = "YY直播点赞";
+			sourceTree = "<group>";
+		};
+		0BAF53C81E681C6700E09B9D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0BAF53C91E681C6700E09B9D /* UIImageView */,
+				0BAF53CC1E681C6700E09B9D /* ViewController */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0BAF53C91E681C6700E09B9D /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				0BAF53CA1E681C6700E09B9D /* UIImageView+Extension.h */,
+				0BAF53CB1E681C6700E09B9D /* UIImageView+Extension.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		0BAF53CC1E681C6700E09B9D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0BAF53CD1E681C6700E09B9D /* UIViewController+SLExtension.h */,
+				0BAF53CE1E681C6700E09B9D /* UIViewController+SLExtension.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9AA56AAAA5AC0F29ED9CD5B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0340D99865ABAF129F1F2A7E /* Pods-WFLiveAPP.debug.xcconfig */,
+				A199686DF801EB045B1F775E /* Pods-WFLiveAPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B79F7731E63EC9A00A4C492 /* WFLiveAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B79F7A11E63EC9B00A4C492 /* Build configuration list for PBXNativeTarget "WFLiveAPP" */;
+			buildPhases = (
+				FDBFFDE482B86148AE7E912E /* [CP] Check Pods Manifest.lock */,
+				0B79F7701E63EC9A00A4C492 /* Sources */,
+				0B79F7711E63EC9A00A4C492 /* Frameworks */,
+				0B79F7721E63EC9A00A4C492 /* Resources */,
+				CCC0D2B3D0EC0137A652F2E9 /* [CP] Embed Pods Frameworks */,
+				56459465FD2F19C98CCCB91E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WFLiveAPP;
+			productName = WFLiveAPP;
+			productReference = 0B79F7741E63EC9A00A4C492 /* WFLiveAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B79F78C1E63EC9B00A4C492 /* WFLiveAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B79F7A41E63EC9B00A4C492 /* Build configuration list for PBXNativeTarget "WFLiveAPPTests" */;
+			buildPhases = (
+				0B79F7891E63EC9B00A4C492 /* Sources */,
+				0B79F78A1E63EC9B00A4C492 /* Frameworks */,
+				0B79F78B1E63EC9B00A4C492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B79F78F1E63EC9B00A4C492 /* PBXTargetDependency */,
+			);
+			name = WFLiveAPPTests;
+			productName = WFLiveAPPTests;
+			productReference = 0B79F78D1E63EC9B00A4C492 /* WFLiveAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B79F7971E63EC9B00A4C492 /* WFLiveAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B79F7A71E63EC9B00A4C492 /* Build configuration list for PBXNativeTarget "WFLiveAPPUITests" */;
+			buildPhases = (
+				0B79F7941E63EC9B00A4C492 /* Sources */,
+				0B79F7951E63EC9B00A4C492 /* Frameworks */,
+				0B79F7961E63EC9B00A4C492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B79F79A1E63EC9B00A4C492 /* PBXTargetDependency */,
+			);
+			name = WFLiveAPPUITests;
+			productName = WFLiveAPPUITests;
+			productReference = 0B79F7981E63EC9B00A4C492 /* WFLiveAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B79F76C1E63EC9A00A4C492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "石伟锋";
+				TargetAttributes = {
+					0B79F7731E63EC9A00A4C492 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5NGT7FJ4TC;
+						ProvisioningStyle = Automatic;
+					};
+					0B79F78C1E63EC9B00A4C492 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5NGT7FJ4TC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0B79F7731E63EC9A00A4C492;
+					};
+					0B79F7971E63EC9B00A4C492 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5NGT7FJ4TC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0B79F7731E63EC9A00A4C492;
+					};
+				};
+			};
+			buildConfigurationList = 0B79F76F1E63EC9A00A4C492 /* Build configuration list for PBXProject "WFLiveAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B79F76B1E63EC9A00A4C492;
+			productRefGroup = 0B79F7751E63EC9A00A4C492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B79F7731E63EC9A00A4C492 /* WFLiveAPP */,
+				0B79F78C1E63EC9B00A4C492 /* WFLiveAPPTests */,
+				0B79F7971E63EC9B00A4C492 /* WFLiveAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B79F7721E63EC9A00A4C492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B79F7CF1E63F84500A4C492 /* WFLiveCell.xib in Resources */,
+				0B79F7871E63EC9A00A4C492 /* LaunchScreen.storyboard in Resources */,
+				0B79F7841E63EC9A00A4C492 /* Assets.xcassets in Resources */,
+				0B79F7821E63EC9A00A4C492 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B79F78B1E63EC9B00A4C492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B79F7961E63EC9B00A4C492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56459465FD2F19C98CCCB91E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WFLiveAPP/Pods-WFLiveAPP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCC0D2B3D0EC0137A652F2E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WFLiveAPP/Pods-WFLiveAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDBFFDE482B86148AE7E912E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B79F7701E63EC9A00A4C492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B79F77C1E63EC9A00A4C492 /* AppDelegate.m in Sources */,
+				0B79F7D21E6405CF00A4C492 /* LivePlayerViewController.m in Sources */,
+				0B79F7C41E63F63A00A4C492 /* WFLiveItem.m in Sources */,
+				0B79F7791E63EC9A00A4C492 /* main.m in Sources */,
+				0B79F7B11E63EDF500A4C492 /* RootViewController.m in Sources */,
+				0B79F7D61E657E1E00A4C492 /* LoginViewController.m in Sources */,
+				0B79F7CE1E63F84500A4C492 /* WFLiveCell.m in Sources */,
+				0BAF53CF1E681C6700E09B9D /* UIImageView+Extension.m in Sources */,
+				0BAF53071E671AC400E09B9D /* XTLoveHeartView.m in Sources */,
+				0BAF53D01E681C6700E09B9D /* UIViewController+SLExtension.m in Sources */,
+				0BAF53D31E682E2100E09B9D /* WFNavigationViewController.m in Sources */,
+				0BAF53D61E683B8C00E09B9D /* PrsenViewController.m in Sources */,
+				0B79F7CA1E63F6A300A4C492 /* WFCreatorItem.m in Sources */,
+				0B79F7B41E63F13800A4C492 /* LiveTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B79F7891E63EC9B00A4C492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B79F7921E63EC9B00A4C492 /* WFLiveAPPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B79F7941E63EC9B00A4C492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B79F79D1E63EC9B00A4C492 /* WFLiveAPPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B79F78F1E63EC9B00A4C492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B79F7731E63EC9A00A4C492 /* WFLiveAPP */;
+			targetProxy = 0B79F78E1E63EC9B00A4C492 /* PBXContainerItemProxy */;
+		};
+		0B79F79A1E63EC9B00A4C492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B79F7731E63EC9A00A4C492 /* WFLiveAPP */;
+			targetProxy = 0B79F7991E63EC9B00A4C492 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B79F7801E63EC9A00A4C492 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B79F7811E63EC9A00A4C492 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B79F7851E63EC9A00A4C492 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B79F7861E63EC9A00A4C492 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B79F79F1E63EC9B00A4C492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B79F7A01E63EC9B00A4C492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B79F7A21E63EC9B00A4C492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0340D99865ABAF129F1F2A7E /* Pods-WFLiveAPP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5NGT7FJ4TC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WFLiveAPP",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WFLiveAPP/PrefixHeader.pch";
+				INFOPLIST_FILE = WFLiveAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swf.WFLiveAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B79F7A31E63EC9B00A4C492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A199686DF801EB045B1F775E /* Pods-WFLiveAPP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5NGT7FJ4TC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WFLiveAPP",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WFLiveAPP/PrefixHeader.pch";
+				INFOPLIST_FILE = WFLiveAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swf.WFLiveAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0B79F7A51E63EC9B00A4C492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5NGT7FJ4TC;
+				INFOPLIST_FILE = WFLiveAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swf.WFLiveAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFLiveAPP.app/WFLiveAPP";
+			};
+			name = Debug;
+		};
+		0B79F7A61E63EC9B00A4C492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5NGT7FJ4TC;
+				INFOPLIST_FILE = WFLiveAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swf.WFLiveAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFLiveAPP.app/WFLiveAPP";
+			};
+			name = Release;
+		};
+		0B79F7A81E63EC9B00A4C492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5NGT7FJ4TC;
+				INFOPLIST_FILE = WFLiveAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swf.WFLiveAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WFLiveAPP;
+			};
+			name = Debug;
+		};
+		0B79F7A91E63EC9B00A4C492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5NGT7FJ4TC;
+				INFOPLIST_FILE = WFLiveAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swf.WFLiveAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WFLiveAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B79F76F1E63EC9A00A4C492 /* Build configuration list for PBXProject "WFLiveAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B79F79F1E63EC9B00A4C492 /* Debug */,
+				0B79F7A01E63EC9B00A4C492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B79F7A11E63EC9B00A4C492 /* Build configuration list for PBXNativeTarget "WFLiveAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B79F7A21E63EC9B00A4C492 /* Debug */,
+				0B79F7A31E63EC9B00A4C492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B79F7A41E63EC9B00A4C492 /* Build configuration list for PBXNativeTarget "WFLiveAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B79F7A51E63EC9B00A4C492 /* Debug */,
+				0B79F7A61E63EC9B00A4C492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B79F7A71E63EC9B00A4C492 /* Build configuration list for PBXNativeTarget "WFLiveAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B79F7A81E63EC9B00A4C492 /* Debug */,
+				0B79F7A91E63EC9B00A4C492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B79F76C1E63EC9A00A4C492 /* Project object */;
+}

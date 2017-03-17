@@ -1,0 +1,68 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - IQKeyboardManager (4.0.8)
+  - MOBFoundation (2.2.15)
+  - RongCloudIM/IMKit (2.8.6):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.6)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - ShareSDK3/ShareSDKPlatforms/QQ (3.6.1):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (3.6.1):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/WeChat (3.6.1):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKUI (3.6.1):
+    - MOBFoundation
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - IQKeyboardManager
+  - MOBFoundation
+  - RongCloudIM/IMKit (~> 2.8.3)
+  - RongCloudIM/IMLib (~> 2.8.3)
+  - SDWebImage
+  - ShareSDK3/ShareSDKPlatforms/QQ (from `https://git.oschina.net/MobClub/ShareSDK-for-iOS.git`)
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (from `https://git.oschina.net/MobClub/ShareSDK-for-iOS.git`)
+  - ShareSDK3/ShareSDKPlatforms/WeChat (from `https://git.oschina.net/MobClub/ShareSDK-for-iOS.git`)
+  - ShareSDK3/ShareSDKUI (from `https://git.oschina.net/MobClub/ShareSDK-for-iOS.git`)
+  - YYModel
+
+EXTERNAL SOURCES:
+  ShareSDK3:
+    :git: https://git.oschina.net/MobClub/ShareSDK-for-iOS.git
+
+CHECKOUT OPTIONS:
+  ShareSDK3:
+    :commit: 02f43072cfefcc5d97bdad4c33d4efb32c18afb8
+    :git: https://git.oschina.net/MobClub/ShareSDK-for-iOS.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
+  MOBFoundation: 4975874f74c991f562151f6a4549e9a6ad743fd8
+  RongCloudIM: f35630e60f7d393ea93b04d4cd6152c9191b8d05
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  ShareSDK3: dea6a14cc4385fa6493e10895ba11d07ef34d149
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 0f313e5cdbaecd14f43c2020fa341c7106ae628d
+
+COCOAPODS: 1.2.0

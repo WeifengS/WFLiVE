@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  WFLiveAPP
+//
+//  Created by 石伟锋 on 2017/2/27.
+//  Copyright © 2017年 石伟锋. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "APPKeyHeader.h"
+
+#import <YYModel.h>
+#import <UIImageView+WebCache.h>
+#import <AFNetworking.h>
+#import <RongIMKit/RongIMKit.h>
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+
+#import <IQKeyboardManager.h>
+
+//腾讯开放平台（对应QQ和QQ空间）SDK头文件
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+
+//微信SDK头文件
+#import "WXApi.h"
+
+//新浪微博SDK头文件
+#import "WeiboSDK.h"
+//新浪微博SDK需要在项目Build Setti
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
